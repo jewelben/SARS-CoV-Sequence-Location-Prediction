@@ -1,0 +1,13 @@
+# Ignore Node.js related files
+node_modules
+npm-debug.log
+
+# Ignore build artifacts
+/build
+/dist
+
+# Ignore development files
+.DS_Store
+.env
+.git
+.vscode
