@@ -17,7 +17,7 @@ Make sure you have the following software installed on your local machine:
 These instructions will help you run the application using Docker. If you prefer to run it locally, please skip to the "Local Development" section. The Docker files for the frontend and backend are already included in the repository and can be found in the `Frontend/` and `Backend/` directories respectively. These files are used by Docker Compose to build the images and run the containers.
 
 - Clone this directory and move to its root using `cd SARS-CoV-Sequence-Location-Prediction/`.
-- Download the classifier model from [here](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/jewel_benny_students_iiit_ac_in/Ed6u3YVQ7h9Pjwq-Rb6JwLQB6kSKBD9VpwhktuJX2fliYw?e=cRJYtS) (The model is too large to be uploaded to GitHub) and copy it to the `Backend/` directory. This step is important as the model is required for the backend service to run.
+- Download the classifier model from [here](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/jewel_benny_alumni_iiit_ac_in/Ed6u3YVQ7h9Pjwq-Rb6JwLQB6kSKBD9VpwhktuJX2fliYw?e=cRJYtS) (The model is too large to be uploaded to GitHub) and copy it to the `Backend/` directory. This step is important as the model is required for the backend service to run.
 - Build the Docker images for the frontend and backend by running `docker-compose build`
 - This will create the Docker images for the frontend and backend services with the names `SARS-CoV-Sequence-Location-Prediction-frontend` and `SARS-CoV-Sequence-Location-Prediction-backend` respectively.
 - After the images are successfully built, you can run the application using `docker-compose up`
